@@ -11,7 +11,7 @@ R-GCN extends standard Graph Convolutional Networks to handle multi-relational d
 ## Features
 
 * R-GCN model with relational convolutions
-* Multiple datasets: AIFB, AM, BGS, MUTAG
+* Multiple datasets: AIFB, MUTAG
 * Baseline methods for comparison
 * YAML-based experiment configuration
 * Sacred integration for experiment tracking
@@ -67,8 +67,6 @@ python baselines/wl_baseline.py --dataset aifb --iterations 3
 ## Datasets
 
 * AIFB
-* AM
-* BGS
 * MUTAG
 
 ## Notes
